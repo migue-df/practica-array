@@ -75,5 +75,10 @@ var miArray = [1, 2, 3, 4, 5];
 var porcion = miArray.slice(1, 4);
 console.log(porcion);
 
+//Convertir un array en un string usando join
+var miArray = ["Hola", "mundo", "cómo", "estás"];
+var cadena = miArray.join(" ");
+console.log(cadena); 
+
 
 
