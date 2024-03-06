@@ -41,6 +41,13 @@ function generarValores(cantidad) {
 var arrayGenerado = generarValores(5); 
 console.log(arrayGenerado); 
 
+//Obtener longitud de un array
+var miArray = [1, 2, 3, 4, 5];
+var longitud = miArray.length;
+console.log("La longitud del array es: " + longitud);
+
+
+
 
 
 
