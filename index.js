@@ -34,6 +34,12 @@ var conjunto = new Set(arrayConDuplicados);
 var arraySinDuplicados = [...conjunto];
 console.log(arraySinDuplicados); 
 
+// Función para generar valores dinámicamente
+function generarValores(cantidad) {
+    return Array.from({ length: cantidad }, () => Math.floor(Math.random() * 100) + 1);
+}
+var arrayGenerado = generarValores(5); 
+console.log(arrayGenerado); 
 
 
 
