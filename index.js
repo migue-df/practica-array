@@ -80,5 +80,10 @@ var miArray = ["Hola", "mundo", "cómo", "estás"];
 var cadena = miArray.join(" ");
 console.log(cadena); 
 
+//Obtener una subseccion del array desde un indice negativo usando slice
+var miArray = [1, 2, 3, 4, 5];
+var subseccion = miArray.slice(-3);
+console.log(subseccion); 
+
 
 
