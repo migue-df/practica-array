@@ -17,6 +17,12 @@ console.log(secuenciaNumerica)
 var arrayRepetido = new Array(5).fill(10);
 console.log(arrayRepetido); 
 
+// Crear un array a partir de una cadena de texto usando String.split()
+var cadena = "Hola,esto,es,una,cadena,de,texto";
+var arrayTexto = cadena.split(',');
+console.log(arrayTexto);
+
+
 
 
 
