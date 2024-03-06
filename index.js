@@ -13,5 +13,10 @@ var arrayVacio2 = new Array(5);
 var secuenciaNumerica = Array.from({ length: 10 }, (_, index) => index)
 console.log(secuenciaNumerica)
 
+// Crear un array mediante la repetición de un valor usando Array.fill()
+var arrayRepetido = new Array(5).fill(10);
+console.log(arrayRepetido); 
+
+
 
 
