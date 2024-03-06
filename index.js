@@ -28,6 +28,12 @@ var array2 = [4, 5, 6];
 var arrayCombinado = [...array1, ...array2];
 console.log(arrayCombinado); 
 
+//Array con valores duplicados
+var arrayConDuplicados = [1, 2, 3, 3, 4, 5, 5];
+var conjunto = new Set(arrayConDuplicados);
+var arraySinDuplicados = [...conjunto];
+console.log(arraySinDuplicados); 
+
 
 
 
