@@ -58,6 +58,12 @@ var ultimoElementoEliminado = miArray.pop();
 console.log("Elemento eliminado: " + ultimoElementoEliminado);
 console.log(miArray);
 
+//Agregar elementos al principio del array usando unshift() :
+var miArray = [2, 3, 4, 5];
+miArray.unshift(1);
+miArray.unshift(0);
+console.log(miArray); 
+
 
 
 
