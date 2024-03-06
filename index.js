@@ -70,6 +70,10 @@ var primerElementoEliminado = miArray.shift();
 console.log("Elemento eliminado: " + primerElementoEliminado);
 console.log(miArray); 
 
+//Obteenr una porcion del array usando slice
+var miArray = [1, 2, 3, 4, 5];
+var porcion = miArray.slice(1, 4);
+console.log(porcion);
 
 
 
