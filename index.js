@@ -85,5 +85,12 @@ var miArray = [1, 2, 3, 4, 5];
 var subseccion = miArray.slice(-3);
 console.log(subseccion); 
 
+//Eliminar una porción del array sin modificar el original usando slice() 
+var miArray = [1, 2, 3, 4, 5];
+
+// Eliminar una porción del array sin modificar el original
+var porcionEliminada = miArray.slice(1, 4); 
+console.log("Porción eliminada: " + porcionEliminada); 
+console.log("Array original: " + miArray); 
 
 
