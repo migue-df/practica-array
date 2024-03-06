@@ -46,6 +46,13 @@ var miArray = [1, 2, 3, 4, 5];
 var longitud = miArray.length;
 console.log("La longitud del array es: " + longitud);
 
+//Agregar elementos al final de un array usando push
+var miArray = [1, 2, 3, 4, 5];
+miArray.push(6);
+miArray.push(7);
+console.log(miArray); 
+
+
 
 
 
