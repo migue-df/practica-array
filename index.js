@@ -64,6 +64,11 @@ miArray.unshift(1);
 miArray.unshift(0);
 console.log(miArray); 
 
+//Eliminar el primer elemento de un array usando shift
+var miArray = [1, 2, 3, 4, 5];
+var primerElementoEliminado = miArray.shift();
+console.log("Elemento eliminado: " + primerElementoEliminado);
+console.log(miArray); 
 
 
 
