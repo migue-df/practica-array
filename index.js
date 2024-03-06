@@ -94,3 +94,8 @@ console.log("Porción eliminada: " + porcionEliminada);
 console.log("Array original: " + miArray); 
 
 
+//Agregar múltiples elementos al principio del array usando unshift() con spread operador
+var miArray = [3, 4, 5];
+var nuevosElementos = [1, 2];
+miArray.unshift(...nuevosElementos);
+console.log(miArray);
